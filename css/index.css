@@ -1,0 +1,286 @@
+    .banner {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .banner .banner-list {
+        width: 300%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .banner .banner-list .banner-list-item {
+        float: left;
+        width: 33.33%;
+        height: 100%;
+    }
+    
+    .banner-list .banner-list-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner .arr {
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        width: 60px;
+        height: 100px;
+        background-color: #555;
+        opacity: 0.2;
+        font-size: 80px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: 200;
+        color: #fff;
+    }
+    
+    .banner .arr.arr-right {
+        left: auto;
+        right: 100px;
+    }
+    
+    .banner .banner-icon {
+        width: 70px;
+        height: 4px;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        margin-left: -30px;
+    }
+    
+    .banner .banner-icon .icon-item {
+        border-radius: 3px;
+        float: left;
+        width: 30px;
+        height: 100%;
+        background-color: #fff;
+    }
+    
+    .banner .banner-icon .icon-item.active {
+        background-color: RGB(225, 204, 218);
+    }
+    
+    .banner-icon .icon-item:first-child {
+        margin-right: 10px;
+    }
+    
+    .content {
+        padding-top: 100px;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .content .content-c {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .title {
+        margin-bottom: 50px;
+    }
+    
+    .title h3 {
+        font-size: 26px;
+        text-align: center;
+        font-weight: normal;
+        color: #444444;
+    }
+    
+    .title p {
+        text-align: center;
+        height: 16px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #C1C1C1;
+        margin-top: 10px;
+    }
+    
+    .content-c .content-nav-list {
+        width: 50%;
+        height: 20px;
+        /* background-color: #f00; */
+        padding: 0 25%;
+        margin-bottom: 50px;
+    }
+    
+    .content-c .content-nav-list .content-nav-item {
+        position: relative;
+        float: left;
+        width: 150px;
+        text-align: center;
+        font-size: 16px;
+        color: #4D4D4D;
+    }
+    
+    .content-nav-list .content-nav-item::before {
+        content: '';
+        width: 4px;
+        height: 4px;
+        background: #B9AB77;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: -15px;
+        opacity: 0;
+    }
+    
+    .content-nav-list .content-nav-item.active {
+        color: #B9AB77;
+    }
+    
+    .content-nav-list .content-nav-item.active::before {
+        opacity: 1;
+    }
+    
+    .content .content-picture {
+        width: 100%;
+        height: 360px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .content .content-list {
+        width: 150%;
+        height: 360px;
+        position: absolute;
+        left: 0;
+        top: 0px;
+    }
+    
+    .content .content-list .content-item {
+        float: left;
+        width: fit-content;
+        margin: 0px 20px;
+        position: relative;
+    }
+    
+    .content .content-list .content-item:first-child {
+        margin-left: 0px;
+    }
+    
+    .content-list .content-item img {
+        filter: grayscale(1);
+    }
+    
+    .content-list .content-item:hover img {
+        filter: none;
+    }
+    
+    .content-list .content-item .content-item-h {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+    
+    .content-item .content-item-h h2 {
+        text-align: center;
+        margin-top: 45%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .content-item .content-item-h p {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .content-item .content-item-h span {
+        margin-top: 10px;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .content-list .content-item:hover .content-item-h {
+        opacity: 1;
+        transition: 2s;
+    }
+    
+    .more {
+        width: 150px;
+        height: 45px;
+        margin: 0px auto;
+        border: 1px solid #b9ab77;
+        text-align: center;
+        line-height: 45px;
+    }
+    
+    .jewelry {
+        width: 100%;
+        height: 500px;
+        background-color: #f9f9f9;
+        padding-top: 60px;
+    }
+    
+    .jewelry-c {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .jewelry-list {
+        width: 100%;
+        height: 400px;
+        /* background-color: #f00; */
+    }
+    
+    .jewelry-list .jewelry-item {
+        width: 270px;
+        height: 180px;
+        margin-left: 40px;
+        float: left;
+        position: relative;
+    }
+    
+    .jewelry-list .jewelry-item:first-child {
+        margin: 0px;
+    }
+    
+    .jewelry-list .jewelry-item .jewelry-item-h {
+        width: 100%;
+        height: 60px;
+        width: 270px;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .jewelry-item .jewelry-item-h h4 {
+        margin-left: 20px;
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .jewelry-item .jewelry-item-h p {
+        margin-left: 20px;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #C1C1C1;
+    }
+    
+    .jewelry-list .jewelry-item:hover .jewelry-item-h {
+        opacity: 1;
+    }

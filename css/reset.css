@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    /* 斜杠后边 是 行高 */
+    /* 1代表 1倍行高(当前字体的倍数) */
+    font: 16px/1 'PingFang SC', '微软雅黑';
+}
+
+.mr0 {
+    margin-right: 0 !important;
+}
+
+.clear-both {
+    width: 0;
+    height: 0;
+    clear: both;
+}
