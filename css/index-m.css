@@ -1,142 +1,305 @@
-@media (max-width:768px) {
-    .banner {
-        width: 100%;
-        height: 150px;
-        position: relative;
-        overflow: hidden;
-    }
-    .banner .arr {
-        position: absolute;
-        left: 5%;
-        top: 50%;
-        width: 20px;
-        height: 40px;
-        font-size: 30px;
-        line-height: 40px;
-        margin-top: -20px;
-    }
-    .banner .arr.arr-right {
-        left: auto;
-        right: 5%;
-    }
-    .banner .banner-icon {
-        width: 30px;
-        height: 2px;
-        margin-left: -15px;
-    }
-    .banner .banner-icon .icon-item {
-        width: 10px;
-        height: 100%;
-    }
-    .content {
-        width: 100%;
-        height: 200px;
-        padding-top: 20px;
-    }
-    .content .content-c {
-        width: 100%;
-        height: 100%;
-    }
-    .title {
-        margin-bottom: 20px;
-    }
-    .title h3 {
-        width: 100%;
-        font-size: 14px;
-        text-align: center;
-        font-weight: normal;
-        color: #444444;
-    }
-    .title p {
-        width: 100%;
-        text-align: center;
-        height: 16px;
-        font-size: 16px;
-        font-weight: 400;
-        color: #C1C1C1;
-        margin-top: 10px;
-    }
-    .content-c .content-nav-list {
-        margin-top: 50px;
-        width: 100%;
-        height: 20px;
-        /* background-color: #f00; */
-        margin-bottom: 20px;
-        padding: 0 0px;
-    }
-    .content-c .content-nav-list .content-nav-item {
-        position: relative;
-        float: left;
-        width: 90px;
-        text-align: center;
-        font-size: 12px;
-        color: #4D4D4D;
-    }
-    .content-nav-list .content-nav-item.active {
-        color: #B9AB77;
-    }
-    .content .content-list {
-        width: 150%;
-        position: absolute;
-        left: 0;
-        padding: 0;
-        margin-top: 10px;
-    }
-    .content .content-list .content-item {
-        float: left;
-        width: fit-content;
-        width: 180px;
-        margin: 0px 5px;
-        position: relative;
-        margin-top: 5px;
-    }
-    .content-list .content-item .content-item-h {
-        width: 80%;
-        height: 80%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        opacity: 0;
-    }
-    .content-list .content-item img {
-        filter: none;
-        width: 180px;
-        height: auto;
-    }
-    .content .content-picture {
-        width: 100%;
-        overflow: hidden;
-        height: 480px;
-    }
-    .content-list .content-item:nth-child(3) {
-        margin-left: 0px;
-    }
-    .content-list .content-item:nth-child(4) {
-        margin-left: 0px;
-    }
-    .jewelry {
-        padding-top: 60px;
-        margin-top: 490px;
-    }
-    .jewelry-c {
-        width: 100%;
-    }
-    .jewelry-list .jewelry-item {
-        width: 100%;
-        height: 217px;
-        margin-left: 25px;
-        float: none;
-        position: relative;
-    }
-    .jewelry-list .jewelry-item img {
-        width: 325px;
-        height: 217px;
-    }
-    .jewelry-list .jewelry-item:first-child {
-        margin-left: 25px;
-    }
-    .jewelry-list .jewelry-item .jewelry-item-h {
-        width: 325px;
-        opacity: 1;
-    }
-}
+        @media (max-width:768px) {
+            .banner {
+                width: 100%;
+                height: 150px;
+                position: relative;
+                overflow: hidden;
+            }
+            .banner .arr {
+                position: absolute;
+                left: 5%;
+                top: 50%;
+                width: 20px;
+                height: 40px;
+                font-size: 30px;
+                line-height: 40px;
+                margin-top: -20px;
+            }
+            .banner .arr.arr-right {
+                left: auto;
+                right: 5%;
+            }
+            .banner .banner-icon {
+                width: 30px;
+                height: 2px;
+                margin-left: -15px;
+            }
+            .banner .banner-icon .icon-item {
+                width: 10px;
+                height: 100%;
+            }
+            .content {
+                width: 100%;
+                height: 240px;
+                padding-top: 20px;
+            }
+            .content .content-c {
+                width: 100%;
+                height: 100%;
+            }
+            .title {
+                margin-bottom: 20px;
+            }
+            .title h3 {
+                width: 100%;
+                font-size: 14px;
+                text-align: center;
+                font-weight: normal;
+                color: #444444;
+            }
+            .title p {
+                width: 100%;
+                text-align: center;
+                height: 16px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #C1C1C1;
+                margin-top: 10px;
+            }
+            .content-c .content-nav-list {
+                margin-top: 50px;
+                width: 100%;
+                height: 20px;
+                /* background-color: #f00; */
+                margin-bottom: 20px;
+                padding: 0 0px;
+            }
+            .content-c .content-nav-list .content-nav-item {
+                position: relative;
+                float: left;
+                width: 90px;
+                text-align: center;
+                font-size: 12px;
+                color: #4D4D4D;
+            }
+            .content-nav-list .content-nav-item.active {
+                color: #B9AB77;
+            }
+            .content .content-list {
+                width: 150%;
+                position: absolute;
+                left: 0;
+                padding: 0;
+                margin-top: 10px;
+            }
+            .content .content-list .content-item {
+                float: left;
+                width: fit-content;
+                width: 180px;
+                margin: 0px 5px;
+                position: relative;
+                margin-top: 5px;
+            }
+            .content-list .content-item .content-item-h {
+                width: 80%;
+                height: 80%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+            }
+            .content-list .content-item img {
+                filter: none;
+                width: 180px;
+                height: auto;
+            }
+            .content .content-picture {
+                width: 100%;
+                overflow: hidden;
+                height: 480px;
+            }
+            .content-list .content-item:nth-child(3) {
+                margin-left: 0px;
+            }
+            .content-list .content-item:nth-child(4) {
+                margin-left: 0px;
+            }
+            .jewelry {
+                padding-top: 60px;
+                margin-top: 490px;
+            }
+            .jewelry-c {
+                width: 100%;
+                height: 100%;
+            }
+            .jewelry-list {
+                width: 100%;
+                height: 400px;
+                /* background-color: #f00; */
+            }
+            .jewelry-list .jewelry-item {
+                float: none;
+                width: 90%;
+                height: 217px;
+                position: relative;
+                margin: 0 auto;
+                padding: 0 5%;
+            }
+            .jewelry-list .jewelry-item img {
+                width: 100%;
+                height: 100%;
+            }
+            .jewelry-list .jewelry-item:first-child {
+                margin: 0 auto;
+            }
+            .jewelry-list .jewelry-item .jewelry-item-h {
+                width: 90%;
+                opacity: 1;
+                margin: 0 5%;
+            }
+            .jewelry-c .more {
+                margin-top: 500px;
+            }
+            .activity {
+                width: 100%;
+                height: 200px;
+                padding-top: 80px;
+                position: relative;
+                margin-top: 500px;
+            }
+            .activity-c {
+                /* background-color: #f00; */
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 140px;
+                left: 0;
+                margin-left: 0px;
+            }
+            .activity-c .activity-content {
+                width: 100%;
+                height: 200px;
+            }
+            .activity .activity-bgi {
+                background: url(../img/project-banner.jpg)no-repeat;
+                width: 100%;
+                height: 360px;
+            }
+            .activity-list {
+                width: 100%;
+            }
+            .activity-list .activity-item {
+                width: 50%;
+                float: none;
+                position: relative;
+                display: none;
+            }
+            .activity-list .activity-item:first-child {
+                display: block;
+            }
+            .activity-item-h {
+                background-color: #fff;
+                width: 90%;
+                height: 100%;
+                padding-left: 10%;
+                position: absolute;
+                left: 100%;
+                top: 0;
+                opacity: 1;
+                transition: 1s;
+            }
+            .activity-item-h h2 {
+                font-size: 30px;
+                font-weight: 400;
+                color: #8B8B8B;
+                float: left;
+                margin-top: 44px;
+            }
+            .activity-item-h h5 {
+                float: left;
+                font-size: 14px;
+                font-weight: 400;
+                color: #8B8B8B;
+                margin-top: 55px;
+                margin-left: 15px;
+            }
+            .activity-item-h h3 {
+                font-size: 16px;
+                font-weight: 400;
+                color: #000000;
+                margin-top: 115px;
+            }
+            .activity-item-h p {
+                font-size: 13px;
+                font-weight: 400;
+                color: #8B8B8B;
+                margin-top: 21px;
+            }
+            .activity-item-h span {
+                display: block;
+                font-size: 14px;
+                font-weight: 400;
+                color: #BEBEBE;
+                margin-top: 20px;
+            }
+            .designers {
+                margin-top: 200px;
+                height: 1500px;
+            }
+            .designers .designers-c {
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+            }
+            .designers .title h3 {
+                color: #F7F5F5;
+            }
+            .designers-c .designers-list {
+                margin-top: -100px;
+                width: 100%;
+            }
+            .designers-list .designers-item {
+                float: none;
+                width: 60%;
+                padding: 0px 20%;
+                text-align: center;
+                margin-left: 0px;
+                position: relative;
+                margin-top: 150px;
+            }
+            .designers-list .designers-item::before {
+                content: 'MOER';
+                width: 15%;
+                height: 20px;
+                font-size: 12px;
+                line-height: 20px;
+                position: absolute;
+                bottom: -100px;
+                margin-left: -7.5%;
+            }
+            .designers-item p {
+                margin-top: 20px;
+                line-height: 20px;
+                margin-bottom: 100px;
+            }
+            .footer {
+                width: 100%;
+                height: 100px;
+            }
+            .footer-c {
+                width: 100%;
+            }
+            .footer-c .foot-l {
+                float: none;
+                height: 30px;
+                padding-top: 20px;
+            }
+            .footer-c .foot-l p {
+                text-align: center;
+                line-height: 25px;
+                font-size: 12px;
+            }
+            .foot-r {
+                float: none;
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .foot-r .foot-r-item {
+                height: 10px;
+                padding-top: 0px;
+                float: none;
+                display: inline-block;
+                margin-left: 0px;
+            }
+        }
